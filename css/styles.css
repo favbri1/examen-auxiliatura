@@ -1,0 +1,70 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.banner {
+   background-image: url("../img/tms.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 100vh;
+}
+.cabeza{
+   display: flex;
+   min-height: 70px;
+   justify-content:space-between;
+   align-items: center;
+   padding: 10px;
+}
+.logo{
+   display: flex;
+}
+.logo img{
+   height: 90px;
+   margin-right: 10px;
+}
+a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+nav a{
+   text-align: right;
+   font-size: 30px;
+   padding: 15px;
+}
+nav a:hover{
+   color: rgb(184, 26, 26);
+}
+table{
+   display: flex;
+   padding-left: 5%;
+   color: #fff;
+}
+.subtitulo{
+   color: darkgrey;
+   display: flex;
+}
+.botoness{
+   display: flex;
+}
+.boton {
+   padding: 10px; /*espacio alrededor texto*/
+   background-color: #a71e1e; /*color botón*/
+   color: #ffffff; /*color texto*/
+   text-decoration: none; /*decoración texto*/
+   text-transform: uppercase; /*capitalización texto*/
+   font-family: serif;
+}
+.boton2{
+
+   border: 1px solid #25282d;
+   background-color: #25282d;
+   padding: 10px; /*espacio alrededor texto*/
+   color: #ffffff; /*color texto*/
+   text-decoration: none; /*decoración texto*/
+   text-transform: uppercase; /*capitalización texto*/
+   font-family: serif;
+}
